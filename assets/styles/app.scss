@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+
+:root {
+    --primary-color:red;
+    --secondary-color:yellow;
+}
+
+body {
+    background-color:var(--primary-color);
+}
+h1 {
+    color:var(--secondary-color);
+}
+
+
