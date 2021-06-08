@@ -3,6 +3,7 @@
 // src/Controller/ProgramController.php
 namespace App\Controller;
 
+use App\Entity\Program;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -15,7 +16,7 @@ class ProgramController extends AbstractController
 {
     /**
      * Correspond à la route /programs/ et au name "program_index"
-     * @Route("/", name="program_index")
+     * @Route("/", name="index")
      * * @return Response A response instance
      */
     public function index(): Response
